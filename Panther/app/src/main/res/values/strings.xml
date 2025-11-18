@@ -1,0 +1,65 @@
+<resources>
+  <string name="app_name">Panther</string>
+  <string name="ir">GO</string>
+  <string name="anterior">Previous</string>
+  <string name="siguiente">Next</string>
+  <string name="detener">Stop</string>
+  <string name="title_activity_main">MAIN_ACTIVITY</string>
+
+  <string-array name="array_technology">
+    <item>Block ADS/Trackers</item>
+    <!-- This Feature is in early dev and breaks pages, not usefull for users yet
+      <item>Block Fingerprint</item>
+    -->
+    <item>Console</item>
+    <item>Javascript</item>
+    <item>Logs</item>
+    <item>Search Engine</item>
+    <item>Source Code</item>
+    <!--
+    <item>Save Page</item>
+    <item>Interface</item>
+    <item>History</item>
+    <item>Technologies</item>
+    <item>Share</item>
+    <item>About</item>
+    <item>Search</item>
+    <item>Favorites</item>
+     <item>Computer View</item>
+    -->
+     <item>Hacking</item>
+     <item>Scriptable</item>
+    <item>Exit</item>
+  </string-array>
+
+  <string-array name="motores_busqueda">
+    <item>AllRecipes</item>
+    <item>Baidu</item>
+    <item>Bing</item>
+    <item>DuckDuckGo</item>
+    <item>Ebay</item>
+    <item>Ecosia</item>
+    <item>Facebook</item>
+    <item>Google</item>
+    <item>QWant</item>
+    <item>Yandex</item>
+    <item>Youtube</item>
+  </string-array>
+
+  <string-array name="hacking">
+    <item>User-Agent</item>
+    <!--
+    <item>option3</item>
+    <item>option4</item>
+    <item>option5</item>
+    <item>option6</item>
+    <item>option7</item>
+    <item>option8</item>
+    <item>option9</item>
+    <item>option10</item>
+    <item>option11</item>
+    <item>CUSTOM</item>
+    -->
+  </string-array>
+</resources>
+
