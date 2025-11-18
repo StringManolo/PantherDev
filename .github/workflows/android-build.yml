@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./Panther 
+        working-directory: ./Panther
 
     steps:
     - name: 🚀 Checkout PantherDev
@@ -24,10 +24,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
-    - name: 🤖 Setup Android SDK
-      uses: android-actions/setup-android@v3
-
 
     - name: 🏗️ Build Debug APK
       run: gradle assembleDebug --stacktrace --no-daemon
