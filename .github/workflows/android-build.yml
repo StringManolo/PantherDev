@@ -25,8 +25,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: 🐘 Setup Gradle
+      uses: gradle/actions/setup-gradle@v4
+      with:
+        gradle-version: '8.5'
+
     - name: 🏗️ Build Debug APK
-      run: gradle assembleDebug --stacktrace --no-daemon
+      run: gradle assembleDebug --stacktrace
 
     - name: 📦 Upload APK Artifact
       uses: actions/upload-artifact@v4
@@ -36,7 +41,7 @@ jobs:
         retention-days: 30
 
     - name: 🎯 Build Release APK (sin firmar)
-      run: gradle assembleRelease --stacktrace --no-daemon
+      run: gradle assembleRelease --stacktrace
 
     - name: 📦 Upload Release APK
       uses: actions/upload-artifact@v4
