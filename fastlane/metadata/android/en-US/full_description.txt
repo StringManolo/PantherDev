@@ -1,0 +1,38 @@
+<p><strong>Panther</strong> is a privacy-focused Android browser built on WebView. It’s lightweight (under 1 MB) yet powerful, offering ad and tracker blocking, console debugging, and a scriptable embedded browser.</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li><em>Scrollable Settings Menu</em> — access options by tapping the Panther icon.</li>
+  <li><em>Scriptable Browser</em> — control an embedded second browser using JavaScript: open URLs, click by coordinates, resize/move window, navigate back and forth.</li>
+  <li><em>Blocker</em> — blocks common ad servers and trackers by replacing requests with custom blank files. You can enable or disable it. It uses a built-in list of blocked domains.</li>
+  <li><em>Console Support</em> — view console.log output, run commands, and debug from inside the app.</li>
+  <li><em>In-App Logs</em> — see all network requests and which ones were blocked.</li>
+  <li><em>Basic Browser Functions</em> — navigation, zoom control (even when websites try to disable it), and history within a session.</li>
+  <li><em>Privacy-Oriented User-Agent</em> — Panther overrides the default WebView user agent to a fixed one. You can also set a custom UA under “Hacking → User-Agent”.</li>
+  <li><em>Search Engine Customization</em> — choose your default search engine.</li>
+  <li><em>JavaScript Toggle</em> — enable or disable JS globally.</li>
+  <li><em>Session Cleanup</em> — clears internal history and cache on exit.</li>
+  <li><em>Special Debug URLs</em> — type:
+    <ul>
+      <li><code>#list</code> to list available URLs</li>
+      <li><code>#code</code> to view page source</li>
+      <li><code>#cookie</code> to list cookies</li>
+      <li><code>#clearconsole</code> or <code>#clearlogs</code></li>
+      <li><code>#url</code> to display the current URL</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Scriptable API (Early Development)</strong>:</p>
+<ul>
+  <li><code>scriptable.open(url, "")</code> — open a new webpage</li>
+  <li><code>scriptable.click(x, y)</code> — click at screen coordinates in the embedded browser</li>
+  <li><code>scriptable.resize(width, height)</code> — change the size of the embedded browser window</li>
+  <li><code>scriptable.move(x, y)</code> — move the embedded browser window</li>
+  <li><code>scriptable.goBack()</code> — navigate back</li>
+  <li><code>scriptable.goForward()</code> — navigate forward</li>
+</ul>
+
+<p><strong>Why Use Panther?</strong></p>
+<p>If you care about privacy, minimal footprint, and want the ability to script interactions in a browser-like component, Panther is a great fit. It’s ideal for users who want to block ads and trackers without relying on heavyweight browsers, and who may want to automate web tasks.</p>
+

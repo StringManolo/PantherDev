@@ -1,0 +1,3 @@
+Add resize, move, goBack, goForward java to javascript interfaces to control the Scriptable in-app Browser with scripts.
+
+Cancel Panther local file redirection when activating Scriptable from Panther menu to avoid the lost of webpage context (in Panther) when user needs to open a "new tab" using Scriptable in-app Browser.
